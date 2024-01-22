@@ -219,7 +219,7 @@ export function Sidebar() {
 										<path d='M22 18 A4 4 0 0 1 18 22 A4 4 0 0 1 14 18 A4 4 0 0 1 22 18 z' />
 										<path d='M8 11h4M8 15h3' />
 									</svg>
-									<span className=' font-normal lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
+									<span className=' font-normal  lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
 										Reports
 									</span>
 								</NavLink>

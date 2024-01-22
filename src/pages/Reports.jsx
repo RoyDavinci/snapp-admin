@@ -1,8 +1,7 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect, useState } from "react";
 import Header from "../partials/Header";
 import Sidebar from "../partials/Sidebar";
-import UsersInfo from "../partials/UserDB/UsersInfo";
-import ReportData from "./Dashboard/ReportData";
 import axios from "axios";
 import Box from "@mui/material/Box";
 import { DataGrid } from "@mui/x-data-grid";

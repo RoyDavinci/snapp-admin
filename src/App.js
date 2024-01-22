@@ -24,6 +24,7 @@ import UsersCounter from "./Contexts/UsersCountContext";
 import DataContext from "./Contexts/DataContext";
 import UsersContext from "./Contexts/UsersContext";
 import { User } from "./components/User";
+import Reports from "./pages/Reports";
 
 function App() {
 	const location = useLocation();
@@ -49,7 +50,7 @@ function App() {
 										{/* <Route path='/finance/payment' element={<Payments />} /> */}
 										{/* <Route path='/finance/revenue' element={<Revenue />} /> */}
 										{/* <Route path='/finance/sales' element={<Sales />} /> */}
-										{/* <Route path='/reports' element={<Reports />} /> */}
+										<Route path='/reports' element={<Reports />} />
 									</Route>
 								</Routes>
 							</>
