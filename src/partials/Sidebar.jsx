@@ -136,7 +136,7 @@ export function Sidebar() {
 												{/*Dashboard*/}
 												<NavLink to='/'>
 													<div className='flex items-center justify-between'>
-														<div className='flex items-center'>
+														<div className='flex items-center text-white'>
 															<svg
 																xmlns='http://www.w3.org/2000/svg'
 																fill='none'
@@ -151,7 +151,7 @@ export function Sidebar() {
 																	d='M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z'
 																/>
 															</svg>
-															<span className='text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 text-white'>
+															<span className='text-sm font-medium ml-3 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 text-white'>
 																Dashboard
 															</span>
 														</div>
@@ -184,7 +184,7 @@ export function Sidebar() {
 									>
 										<path d='M144 160c-44.2 0-80-35.8-80-80S99.8 0 144 0s80 35.8 80 80-35.8 80-80 80zm368 0c-44.2 0-80-35.8-80-80s35.8-80 80-80 80 35.8 80 80-35.8 80-80 80zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7-1.3 7.2-1.9 14.7-1.9 22.3 0 38.2 16.8 72.5 43.3 96H21.3C9.6 320 0 310.4 0 298.7zM405.3 320h-.7c26.6-23.5 43.3-57.8 43.3-96 0-7.6-.7-15-1.9-22.3 13.6-6.3 28.7-9.7 44.6-9.7h42.7c58.9 0 106.7 47.8 106.7 106.7 0 11.8-9.6 21.3-21.3 21.3H405.3zm10.7-96c0 53-43 96-96 96s-96-43-96-96 43-96 96-96 96 43 96 96zM128 485.3c0-73.6 59.7-133.3 133.3-133.3h117.4c73.6 0 133.3 59.7 133.3 133.3 0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z' />
 									</svg>
-									<span className=' font-normal lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
+									<span className=' font-normal lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
 										Users
 									</span>
 								</NavLink>
@@ -252,7 +252,7 @@ export function Sidebar() {
 															>
 																<path d='M9 17H7v-7h2v7m4 0h-2V7h2v10m4 0h-2v-4h2v4m2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z' />
 															</svg>
-															<span className=' font-normal lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 '>
+															<span className=' font-normal  lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 '>
 																Sales
 															</span>
 														</NavLink>
@@ -281,7 +281,7 @@ export function Sidebar() {
 															>
 																<path d='M21.21 15.89A10 10 0 118 2.83M22 12A10 10 0 0012 2v10z' />
 															</svg>
-															<span className=' font-normal lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200'>
+															<span className=' font-normal  lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200'>
 																Revenue
 															</span>
 														</NavLink>
@@ -306,7 +306,7 @@ export function Sidebar() {
 															>
 																<path d='M96 96v224c0 35.3 28.7 64 64 64h416c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160c-35.3 0-64 28.7-64 64zm64 160c35.3 0 64 28.7 64 64h-64v-64zm64-160c0 35.3-28.7 64-64 64V96h64zm352 160v64h-64c0-35.3 28.7-64 64-64zM512 96h64v64c-35.3 0-64-28.7-64-64zm-64 112c0 44.2-35.8 80-80 80s-80-35.8-80-80 35.8-80 80-80 80 35.8 80 80zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120v240c0 66.3 53.7 120 120 120h400c13.3 0 24-10.7 24-24s-10.7-24-24-24H120c-39.8 0-72-32.2-72-72V120z' />
 															</svg>
-															<span className='font-normal lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200'>
+															<span className='font-normal  lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200'>
 																Payments
 															</span>
 														</NavLink>
@@ -354,7 +354,7 @@ export function Sidebar() {
 											strokeWidth='2'
 										/>
 									</svg>
-									<span className='font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
+									<span className='font-medium  lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
 										Analytics
 									</span>
 								</NavLink>
@@ -386,7 +386,7 @@ export function Sidebar() {
 										/>
 									</svg>
 
-									<span className='font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
+									<span className='font-medium  lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 pt-1'>
 										Location
 									</span>
 								</NavLink>
