@@ -23,6 +23,7 @@ import SideBContext from "./Contexts/SideBContext";
 import UsersCounter from "./Contexts/UsersCountContext";
 import DataContext from "./Contexts/DataContext";
 import UsersContext from "./Contexts/UsersContext";
+import { User } from "./components/User";
 
 function App() {
 	const location = useLocation();
@@ -44,11 +45,11 @@ function App() {
 									<Route path='/login' element={<Login />} />
 									<Route element={<Auth />}>
 										<Route exact path='/' element={<Dashboard />} />
-										{/* <Route path='/users' element={<Users />} />
-										<Route path='/finance/payment' element={<Payments />} />
-										<Route path='/finance/revenue' element={<Revenue />} />
-										<Route path='/finance/sales' element={<Sales />} />
-										<Route path='/reports' element={<Reports />} /> */}
+										<Route path='/users' element={<User />} />
+										{/* <Route path='/finance/payment' element={<Payments />} /> */}
+										{/* <Route path='/finance/revenue' element={<Revenue />} /> */}
+										{/* <Route path='/finance/sales' element={<Sales />} /> */}
+										{/* <Route path='/reports' element={<Reports />} /> */}
 									</Route>
 								</Routes>
 							</>

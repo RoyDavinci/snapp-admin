@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useContext, useEffect, useState, useCallback } from "react";
 import Box from "@mui/material/Box";
 import { DataGrid } from "@mui/x-data-grid";
@@ -6,10 +7,10 @@ import FadeLoader from "react-spinners/FadeLoader";
 // import Avatar from "@mui/material/Avatar";
 import { GetAllUsers } from "../../api/users";
 import { ACTION_TYPES } from "../../reducers/actionTypes";
-import { Graph } from "../../components/Chart";
+import { Graph } from "../../components/Graph";
 import axios from "axios";
 import defaultUser from "../../images/abstract-user-flat-4.svg";
-import SideBarWidget from "../../components/SideBarWidget";
+import SideBarWidget from "../../components/SidebarWidget";
 
 const options = {
 	year: "numeric",
@@ -21,7 +22,7 @@ const options = {
 	hour12: false,
 };
 
-const UsersData = ({ Info }) => {
+export const UsersData = ({ Info }) => {
 	// const [check, setCheck] = useState(false)
 	const [graphDetails, setGraphDetails] = useState({
 		itemWithout: 0,
