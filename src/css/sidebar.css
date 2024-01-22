@@ -1,0 +1,21 @@
+.sn-ListItem {
+  background: rgb(219, 219, 219);
+  
+    margin: 10px 10px;
+  }
+  
+  .sn-ListItem:hover {
+    background: black;
+    color: white;
+  }  
+  .sn-SubList{
+    background: rgb(224, 221, 221);
+    padding: 8px 10px;
+    border-radius: 5px;
+  
+  }
+  .sn-SubList:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+  }

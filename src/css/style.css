@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/flatpickr.css';
+
+@import 'tailwindcss/utilities';
+
+@layer components{
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .user-dt-style{
+        @apply min-w-[12rem] !max-w-[12rem] text-left overflow-x-auto no-scrollbar ;
+    }
+    .filter-outer{
+        @apply w-2/6 border border-[#C1C1C1] rounded-md overflow-hidden flex justify-between px-3 items-center h-12 relative;
+    }
+
+    /* Revenue */
+    .rev-percent-dt{
+        @apply flex justify-between items-center w-full;
+    }
+    .rev-percent-head{
+        @apply px-5 py-3 text-lg font-normal text-black rounded-md  mb-5;
+    }
+}
