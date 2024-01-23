@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { BsThreeDotsVertical, BsDot } from "react-icons/bs";
 import { ApiDataContext } from "../../Contexts/DataContext";
 import PieChart from "../../charts/PieChart";
+import { Pied } from "../../components/Pie";
 
 const ReportCharts = () => {
 	const { catCount } = useContext(ApiDataContext);
@@ -140,7 +141,7 @@ const ReportCharts = () => {
 						</ul>
 
 						<div className='ur-bttm-graph w-[100%] pr-7'>
-							{/* <PieChart data={categoryCount} /> */}
+							<Pied item={categoryCount} />
 						</div>
 					</div>
 				</div>
